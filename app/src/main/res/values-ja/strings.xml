@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BirthdayReminder</string>
+    <string name="MessageView">誕生日を設定してください。</string>
+    <string name="SetBirthdayButton">誕生日を設定</string>
+    <string name="ClearButton">クリア</string>
+    <string name="birthday_message">次の誕生日まであと %1$d 日です。</string>
+    <string name="age_message">あなたの年齢は %1$d 才です。</string>
+</resources>
