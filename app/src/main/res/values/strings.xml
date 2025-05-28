@@ -3,8 +3,9 @@
     <string name="MessageView">SetBirthdayMessage</string>
     <string name="SetBirthdayButton">SetUpBirthdayReminder</string>
     <string name="ClearButton">Clear</string>
-    <string name="birthday_message">Your next birthday is in %1$d days.</string>
+    <string name="birthday_message">Your birthday is in %1$d days.</string>
     <string name="age_message">You are %1$d years old.</string>
+    <string name="lastuser">last User\'s Birthday</string>
 
 
 </resources>

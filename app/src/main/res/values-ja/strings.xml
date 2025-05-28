@@ -5,4 +5,5 @@
     <string name="ClearButton">クリア</string>
     <string name="birthday_message">次の誕生日まであと %1$d 日です。</string>
     <string name="age_message">あなたの年齢は %1$d 才です。</string>
+    <string name="lastuser">Previous User\'s Birthday</string>
 </resources>
