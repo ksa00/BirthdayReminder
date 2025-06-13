@@ -6,4 +6,6 @@
     <string name="birthday_message">次の誕生日まであと %1$d 日です。</string>
     <string name="age_message">あなたの年齢は %1$d 才です。</string>
     <string name="lastuser">Previous User\'s Birthday</string>
+    <string name="invalid_birthdate_message">生年月日は過去の日付を指定してください。</string>
+    <string name="happy_birthday_message">お誕生日おめでとうございます！🎉</string>
 </resources>

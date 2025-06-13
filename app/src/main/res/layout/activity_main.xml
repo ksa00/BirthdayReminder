@@ -40,7 +40,8 @@
             android:layout_gravity="center_horizontal"
             android:gravity="center_horizontal"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:visibility="gone" />
+            android:visibility="gone"
+            tools:visibility="visible" />
     </LinearLayout>
 
     <LinearLayout

@@ -95,6 +95,13 @@ ageView.setVisibility(ageView.GONE);
         Calendar today = Calendar.getInstance();
         Calendar birthday = Calendar.getInstance();
         birthday.set(year, month, day);
+        //未来の生年月日設定エラー処理
+        if (birthday.after(today)) {
+            messageView.setText(R.string.MessageView);
+            ageView.setText(R.string.invalid_birthdate_message);
+            ageView.setVisibility(View.VISIBLE);
+            return;
+        }
 
         int age = today.get(Calendar.YEAR) - year;
         if (today.get(Calendar.MONTH) < month ||
@@ -113,6 +120,12 @@ ageView.setVisibility(ageView.GONE);
         long daysUntilBirthday = diffMillis / (1000 * 60 * 60 * 24);
 
         String birthdayMessage = getString(R.string.birthday_message, daysUntilBirthday);
+        //誕生日だったらお祝いしようじゃないか
+        if (daysUntilBirthday == 0) {
+            birthdayMessage = getString(R.string.happy_birthday_message);
+        } else {
+            birthdayMessage = getString(R.string.birthday_message, daysUntilBirthday);
+        }
         String ageMessage = getString(R.string.age_message, age);
 
         messageView.setText(birthdayMessage);
